@@ -1000,7 +1000,7 @@
                         <span class="subtitle">MPK SMAN 23 Bandung</span>
                     </h1>
                     <p>
-                        Gunakan hak pilih Anda! Login dengan NIPD/NIS untuk memilih calon Ketua MPK periode 2025-2026 dengan sistem voting digital yang aman dan terpercaya.
+                        Gunakan hak pilih Anda! Login dengan NIS/NIPD untuk memilih calon Ketua MPK periode 2025-2026 dengan sistem voting digital yang aman dan terpercaya.
                     </p>
                     <button class="btn btn-primary btn-lg floating" onclick="navigateTo('login')" style="font-size: 1.25rem; padding: 1.25rem 2.5rem;">
                         🗳️ MULAI VOTING SEKARANG
@@ -1080,7 +1080,7 @@
                             <div class="card-content">
                                 <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-size: 0.875rem;">
                                     <span style="width: 2rem; height: 2rem; background: linear-gradient(135deg, var(--primary-500), var(--emerald-500)); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.875rem;">1</span>
-                                    <span class="font-medium">Login dengan NIPD/NIS</span>
+                                    <span class="font-medium">Login dengan NIS/NIPD</span>
                                 </div>
                                 <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-size: 0.875rem;">
                                     <span style="width: 2rem; height: 2rem; background: linear-gradient(135deg, var(--primary-500), var(--emerald-500)); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.875rem;">2</span>
@@ -1112,7 +1112,7 @@
                                     <span>▼</span>
                                 </button>
                                 <div class="accordion-content">
-                                    Anda perlu memasukkan NIPD (Nomor Induk Peserta Didik)/NIS yang sudah terdaftar di sistem sekolah. Pastikan data yang dimasukkan benar dan sesuai dengan data di administrasi sekolah.
+                                    Anda perlu memasukkan NIS (Nomor Induk Siswa) yang sudah terdaftar di sistem sekolah. Pastikan data yang dimasukkan benar dan sesuai dengan data di administrasi sekolah.
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -1144,11 +1144,11 @@
                             </div>
                             <div class="accordion-item">
                                 <button class="accordion-trigger" onclick="toggleAccordion(4)">
-                                    Bagaimana jika saya lupa NIPD?
+                                    Bagaimana jika saya lupa NIS/NIPD?
                                     <span>▼</span>
                                 </button>
                                 <div class="accordion-content">
-                                    Jika Anda lupa NIPD, silakan hubungi wali kelas atau bagian tata usaha sekolah. Mereka akan membantu Anda mendapatkan informasi yang diperlukan untuk login ke sistem voting.
+                                    Jika Anda lupa NIS/NIPD, silakan hubungi wali kelas atau bagian tata usaha sekolah. Mereka akan membantu Anda mendapatkan informasi yang diperlukan untuk login ke sistem voting.
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -1208,12 +1208,12 @@
                 <div class="card">
                     <div class="card-header text-center">
                         <div class="card-title" style="color: var(--primary-700);">Masuk untuk Memilih</div>
-                        <div class="card-description" style="font-size: 1rem;">Gunakan NIPD/NIS yang terdaftar di sekolah</div>
+                        <div class="card-description" style="font-size: 1rem;">Gunakan NIS/NIPD yang terdaftar di sekolah</div>
                     </div>
                     <div class="card-content">
                         <form id="login-form">
                             <div class="form-group">
-                                <label class="form-label">NIPD (Nomor Induk Peserta Didik)</label>
+                                <label class="form-label">NIS (Nomor Induk Siswa)</label>
                                 <input type="text" id="nipd" class="form-input text-center" placeholder="Contoh: 123456" maxlength="12" required>
                                 <p style="font-size: 0.75rem; color: var(--gray-500); margin-top: 0.5rem; font-weight: 500;">Minimal 6 digit angka</p>
                             </div>
@@ -1224,7 +1224,7 @@
                         </form>
                         <div class="alert alert-info mt-6">
                             <strong>💡 Demo Login:</strong><br>
-                            <strong>NIPD:</strong> 123456
+                            <strong>NIS:</strong> 123456
                         </div>
                         <div class="alert alert-warning mt-4">
                             <strong>🛡️ Penting!</strong><br>
@@ -1247,7 +1247,7 @@
                             <div class="logo-icon">🗳️</div>
                             <div class="logo-text">
                                 <h1>E-Voting MPK 2025-2026</h1>
-                                <p id="student-info">NIPD/NIS: -</p>
+                                <p id="student-info">NIS/NIPD: -</p>
                             </div>
                         </div>
                         <button class="btn btn-secondary" onclick="logout()">
